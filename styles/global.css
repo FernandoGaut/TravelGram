@@ -16,8 +16,8 @@
   --font-family: "Poppins", sans-serif;
   --text-lg: bold 32px/125% var(--font-family);
   --text: 14px/150% var(--font-family);
-  --text-md: 14px/175% var(--font-family);
-  --tesxt-sm: 12px/175% var(--font-family);
+  --text-md: 14px/170% var(--font-family);
+  --tesxt-sm: 12px/170% var(--font-family);
 }
 
 body {
@@ -43,4 +43,8 @@ a:hover {
 
 .bg-surface-color {
   background-color: var(--surface-color);
+}
+
+ul {
+  font-family: var(--font-family);
 }
